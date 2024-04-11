@@ -1,0 +1,449 @@
+/* media Query*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+.Es-100
+{
+width: 100%;
+}
+.Es-95
+{
+width: 95%;
+}
+.Es-70
+{
+width: 70%;
+}
+.Es-50
+{
+width: 50%;
+}
+.Es-30
+{   
+width: 30%;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    .sm-100
+    {
+    width: 100%;
+    }
+    .sm-95
+    {
+    width: 95%;
+    }
+    .sm-90
+    {
+    width: 90%;
+    }
+    .mode-class .dark
+    {
+    margin-left: 95%;
+    }
+    .sm-85
+    {
+    width: 85%;
+    }
+    .sm-70
+    {
+    width: 70%;
+    }
+    .sm-77
+    {
+    width: 77%;
+    }
+    .sm-50
+    {
+    width:50%;
+    }
+    .sm-45
+    {
+    width:45%;
+    }
+    .sm-60
+    {
+    width:60%;
+    }
+    .sm-30
+    {
+    width: 30%;
+    } 
+       /* GALLERY */
+    .card
+    {
+    float: left;
+    margin-inline: 12px;
+    }
+    .CHEFS-card
+   {
+    overflow: hidden;
+    margin: auto;
+   }
+   .imags img
+   {
+   width: 100%;
+   padding-left: 75px;
+  }
+  /* footer */
+  .submit button {
+  left: 34%;
+  }
+  .sub_groub input
+  {
+    width: 72%;
+  }
+  .sub_groub button
+  {
+    width: 27%;
+  }
+  }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+ {
+    .md-100
+    {
+    width: 100%;
+    }
+    .md-95
+    {
+    width: 95%;
+    }
+    .md-90
+    {
+    width: 90%;
+    }
+    .md-70
+    {
+    width: 70%;
+    }
+    .md-85
+    {
+    width: 85%;
+    }
+    .md-50
+    {
+    width: 50%;
+    }
+    .md-44
+    {
+    width: 44%;
+    }
+    .md-30
+    {
+    width: 30%;
+    }
+    /* CONTACT */
+    .address
+    {
+      float: left;
+      margin: 20px;
+      padding: 23px 16px;
+    
+    }
+    /* GALLERY */
+    .one a
+    {
+        border-radius: 46px;
+    }
+
+   .gallery_photo 
+   {
+    margin: auto;
+    overflow: hidden;
+   }
+    
+    /* GALLERY */
+    .card
+    {
+    float: left;
+    margin-inline: 12px;
+    }
+   .CHEFS-card
+   {
+    overflow: hidden;
+    margin: auto;
+   }
+   .imags img
+  {
+  width: 100%;
+  padding-left: 75px;
+  }
+ .threee
+ {
+ float: none;
+ }
+ .submit button {
+  left: 41%;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+ {
+    .lg-100
+    {
+    width: 100%;
+    }
+    .mode-class .dark
+    {
+    margin-left: 95%;
+    }
+    .lg-95
+    {
+    width: 95%;
+    }
+    .lg-90
+    {
+    width: 90%;
+    }
+    .lg-80
+    {
+    width: 80%;
+    }
+    .lg-77
+    {
+    width: 77%;
+    }
+    .lg-50
+    {
+    width: 50%;
+    }
+    .lg-45
+    {
+    width: 45%;
+    }
+    .lg-40
+    {
+    width: 40%;
+    }
+    .lg-33
+    {
+    width: 33%;
+    }
+    .lg-30
+    {
+    width: 30%;
+    }
+    .text
+    {
+    float: left;
+    text-align: left;
+    }
+    .imags
+    {
+    float:right;
+    /* home */
+    }
+    .sub-container
+    {
+    padding-top: 35px;
+    }
+    .two .youtube i {
+    background: #FFFF;
+    width: 55px;
+    height: 51px;
+    border-radius: 50%;
+    padding: 19px 24px;
+   }
+   .email
+    {
+    border-top-left-radius:0px !important ;
+    border-top-right-radius:20px!important ;
+    border-bottom-left-radius:20px !important;
+    border-bottom-right-radius: 20px !important;
+    padding: 13px 16px;
+    }
+    .collactions
+    {
+    margin: 0;
+    }
+    .youtube span
+    {
+    font-size: 18px;
+    }
+    }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+ {
+    .ex-100
+    {
+    width: 100%;
+    }
+    .ex-90
+    {
+    width: 90%;
+    }
+    .ex-80
+    {
+    width: 80%;
+    }
+    .ex-70
+    {
+    width: 70%;
+    }
+    .ex-50
+    {
+    width: 50%;
+    }
+    .ex-35
+    {
+    width: 35%;
+    }
+    .ex-12
+    {
+    width: 12%;
+    }
+    /* navagtion */
+    .container #navlink
+    {
+      position: static;
+      width: 32%;
+      padding-top: 0;
+      margin-left: -60px;
+    }
+    
+    .container ul li
+    {
+
+    display: inline-block;
+    padding: 10px 10px;
+    position: relative;
+    }
+    .container ul li a
+    {
+    color:#8D8D9C;
+    font-size: 19px;
+    font-weight:500;
+    }
+  
+    .container ul li .active
+    {
+    color:#212529;
+    }
+    .container ul .icon_x
+    {
+    display: none;
+    }
+    .container h1 .logo {
+    font-size: 30px;
+    }
+    .container .menu_icon
+    {
+     display: none;
+    }
+    .mode-class .dark
+    {
+    margin-left: 70%;
+    }
+    .mode-class i {
+    font-size: 26px;
+    padding-top: 10px;
+    }
+    .mode-class
+    {
+    float: right;
+    width: 10%;
+    }
+    .text h2
+    {
+        margin-block: 29px;
+        font-size: 66px;
+    }
+
+    .text p
+    {
+    margin-block: 32px;
+    line-height: 1.5;
+    font-size: 18px;
+    }
+    .CHEFS-card .link li {
+      transition: all 1.8s;
+      display: block;
+    }
+    .CHEFS-card .link {
+      background-color: #ffffff4d;
+      position: absolute;
+      top: 23px;
+      right: -48px;
+      width: fit-content;
+      height: fit-content;
+      padding: 10px 6px 9px 6px;
+      color: #7F7F9E;
+      transition: all 1s 1s;
+      border-radius: 8px;
+  }
+  .text {
+    float: left;
+    text-align: center;
+  }
+  .overlay .text {
+    color: white;
+    position: absolute;
+    top: 44%;
+  }
+  .m_b
+{
+margin-bottom: 15px;
+margin-left: 15px;
+}
+.address {
+  float: left;
+  margin: 20px;
+  padding: 23px 16px;
+  margin-inline: 30px;
+}
+.submit button {
+  left: 42%;
+  }
+  /* footer */
+.about
+{
+float: left;
+width: 26%;
+}
+.sub
+{
+  float: left;
+  width: 50%;
+}
+.contact_details
+{
+  float: left;
+  width: 24%;
+}
+.s_m li
+{
+  width: calc(92% / 4);
+}
+.s_m
+{
+  margin-left: 0;
+}
+.me {
+  font-size: 31px;  
+}
+.imge img {
+  height: 42px;
+}
+.footer p{
+  font-size: 17px;
+}
+.contact_details ul li {
+  padding: 10px 0;
+  font-size: 25px;
+  padding-left: 19px;
+}
+.one_m, .two_m {
+  float: left;
+  width: 33%;
+  padding-right: 20px;
+}
+ul.two_m {
+  margin-left: 104px;
+ }
+}
